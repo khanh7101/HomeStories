@@ -1,0 +1,21 @@
+# ========== OS files ==========
+.DS_Store
+Thumbs.db
+
+# ========== .NET (Backend) ==========
+ComicWebAPI/.vs/
+ComicWebAPI/bin/
+ComicWebAPI/obj/
+*.user
+*.suo
+ComicWebAPI/appsettings*.json
+
+# ========== Node.js / React (Frontend) ==========
+comicweb-fe/node_modules/
+comicweb-fe/build/
+
+# ========== Logs ==========
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

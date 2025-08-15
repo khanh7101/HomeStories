@@ -1,0 +1,6 @@
+@ComicWebAPI_HostAddress = http://localhost:5042
+
+GET {{ComicWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
