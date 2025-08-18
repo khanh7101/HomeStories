@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { comicApi } from "../api/comicApi";
-import { Comic } from "../types/Comic";
+import type { Comic } from "../types/Comic";
 import ComicList from "../components/ComicList";
 
 const HomePage: React.FC = () => {
@@ -8,8 +8,8 @@ const HomePage: React.FC = () => {
 
   useEffect(() => {
     comicApi.getAll()
-      .then(data => setComics(data))
-      .catch(err => console.error(err));
+      .then((data) => setComics(data))
+      .catch((err) => console.error(err));
   }, []);
 
   return (

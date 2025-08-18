@@ -1,5 +1,5 @@
 import React from "react";
-import { Comic } from "../types/Comic";
+import type { Comic } from "../types/Comic";
 
 interface Props {
   comics: Comic[];
