@@ -1,21 +1,62 @@
-# ========== OS files ==========
-.DS_Store
+# ==========================
+# Global
+# ==========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
 Thumbs.db
 
-# ========== .NET (Backend) ==========
-ComicWebAPI/.vs/
-ComicWebAPI/bin/
-ComicWebAPI/obj/
+# ==========================
+# Backend (StoriesWebAPI - .NET)
+# ==========================
+[Bb]in/
+[Oo]bj/
+out/
 *.user
+*.rsuser
 *.suo
-ComicWebAPI/appsettings*.json
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.ldf
+*.ndf
+*.jfm
 
-# ========== Node.js / React (Frontend) ==========
-comicweb-fe/node_modules/
-comicweb-fe/build/
+# Visual Studio
+.vs/
+*.dbmdl
+*.jfm
 
-# ========== Logs ==========
-*.log
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Entity Framework Migrations (nếu không muốn push)
+#migrations/
+
+# ==========================
+# Frontend (storiesweb-fe - Node.js, React, Angular, Vue)
+# ==========================
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.env
+.env.*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ==========================
+# OS files
+# ==========================
+ehthumbs.db
+Icon?
+Desktop.ini
